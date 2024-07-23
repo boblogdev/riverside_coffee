@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Riverside Coffeehouse</title>
+    <link rel="shortcut icon" type="image/jpg" href="favicon.ico">
+</head>
+
+<body data-spy="scroll" data-offset="200" data-target="#scrollspy">
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg--color--blue text-uppercase">
+            <div class="container" id="scrollspy">
+                <a class="navbar-brand" href="#">
+                    <h1 class="navbar-brand-text">Riverside Coffeehouse</h1>
+                </a>
+                <!-- Mobile/Tablet Toggler -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- End of Toggler -->
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                            <a class=" nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown" data-toggle="collapse" data-target=".navbar-collapse.show">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Menus
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="assets/menu/riversidedrinks.pdf" target="_blank">Drinks
+                                    Menu</a>
+                                <a class="dropdown-item" href="assets/menu/riversidelunchmenu.pdf" target="_blank">Food
+                                    Menu</a>
+                            </div>
+                        </li>
+                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                            <a class="nav-link" href="#reviews">Reviews</a>
+                        </li>
+                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                            <a class="nav-link" href="#location">Location</a>
+                        </li>
+                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End of Navigation -->
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid px-3 mb-0 text-center">
+        <div class="py-3 px-3 bg--color--black">
+            <h2 class="display-6 text-uppercase">Welcome to the Riverside Coffeehouse</h2>
+            <p>"Come and lose yourself for just a moment"</p>
+        </div>
+    </div>
+    <!-- End of Jumbotron -->
+    <!-- About Section -->
+    <section class="container" id="about">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <h2 class="d-inline">About Riverside</h2><i class="ml-auto fas fa-coffee fa-2x" aria-hidden="true"></i>
+                <hr class="horizontal-rule">
+                <p>Riverside Coffeehouse began in the late 1990's as a small coffeeshop situated near Gateshead town
+                    center. We grew rapidly and moved onto our new premises which you can see today on the banks of
+                    the River Tyne.</p>
+                <p>We use locally sourced Honey from Honey farms in Northumberland to create our wonderful teas.</p>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <h2 class="d-inline">Free Wi-Fi</h2><i class="fas fa-wifi fa-2x" aria-hidden="true"></i>
+                <hr class="horizontal-rule">
+
+                <p>Ran out of data and find yourself in a bind? Pop into the shop, order a coffee, and ask an
+                    assistant about our free wi-fi. </p>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <h2 class="d-inline">Student Discount</h2><i class="fas fa-user-graduate fa-2x" aria-hidden="true"></i>
+                <hr class="horizontal-rule">
+                <p>Riverside has one of the best reputations for price & quality before any discounts are applied. If
+                    you're a student and provide an NUS card you'll get 10% discount.</p>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <h2 class="d-inline">The Quiet Zone</h2><i class="fas fa-volume-down fa-2x" aria-hidden="true"></i>
+                <hr class="horizontal-rule">
+                <p>Come join us in our quiet zone located upstairs in our coffeehouse. Look out our window onto the
+                    Tyne and lose yourself for just a moment.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Reviews Section -->
+    <section class="container" id="reviews">
+        <h2>Customer Reviews</h2>
+        <hr class="horizontal-rule">
+        <!-- Bootstrap Card -->
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="assets/images/cupcakephoto-unsplash.jpg"
+                        alt="Chocolate Cupcake">
+                    <div class="card-body">
+                        <h5 class="card-title">Chocolate Cupcake</h5>
+                        <p class="card-text">"I had the Chocolate Cupcake from Riverside Coffeehouse and it was
+                            absolutely divine."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="assets/images/flatwhitephoto-unsplash.jpg"
+                        alt="Flat White Coffee">
+                    <div class="card-body">
+                        <h5 class="card-title">Flat White Coffee</h5>
+                        <p class="card-text">"The Riverside Coffeehouse is my go to place for Coffee. I can't survive
+                            the
+                            morning rush without a flat white."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4 d-md-none d-lg-inline-block">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="assets/images/goatscheesepanini-unsplash.jpg"
+                        alt="Goats Cheese & Sundried Tomato Panini">
+                    <div class="card-body">
+                        <h5 class="card-title">Goats Cheese & Sundried Tomato Panini</h5>
+                        <p class="card-text">"You have got to try the Goats Cheese & Sundried Tomato paninis. It's my
+                            favourite."</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Location Section -->
+    <section class="container" id="location">
+        <h2>Location</h2>
+        <hr class="horizontal-rule">
+        <div class="row">
+            <!-- iFrame code from Google Maps -->
+            <div class="col-sm-12">
+                <iframe class="embed-responsive" title="Map of Our Location"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3239.3945858645775!2d-1.57757288623127!3d54.962613674493376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1618427633309!5m2!1sen!2suk"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <!-- iFrame End -->
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="container" id="contact">
+        <div class="row">
+            <div class="col-sm-12 col-md-12">
+                <h2>Contact Us</h2>
+                <hr class="horizontal-rule">
+                <form action="https://formdump.codeinstitute.net/" method="post"
+                    class=" col-sm-12 col-md-12 col-lg-8 mx-auto px-0">
+                    <div class="form-group">
+                        <label for="emailaddress">Email address</label>
+                        <input type="email" class="form-control" id="emailaddress" name="email"
+                            aria-describedby="emailHelp" placeholder="Enter email" required>
+                        <label for="telephonenumber">Mobile Number</label>
+                        <input type="tel" class="form-control" id="telephonenumber" name="number"
+                            aria-describedby="emailHelp" placeholder="Enter your telephone number" required>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your personal details
+                            with
+                            anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="question">Question</label>
+                        <textarea class="form-control" id="question" name="question"
+                            placeholder="Please enter your question here and we will get back in touch with you ASAP."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn bg--color--gold btn-block">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="pt-3 pb-5 mt-5">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <h2>Opening Times</h2>
+                    <hr class="horizontal-rule">
+                    <ul class="opening-times">
+                        <li>Monday 9am - 5pm</li>
+                        <li>Tuesday 9am - 5pm</li>
+                        <li>Wednesday 9am - 5pm</li>
+                        <li>Thursday 9am - 5pm</li>
+                        <li>Friday 9am - 5pm</li>
+                        <li>Saturday 9am - 5pm</li>
+                        <li>Sunday 11am - 3pm</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h2>Address</h2>
+                    <hr class="horizontal-rule">
+                    <address>
+                        111 Coffeeroad,<br>
+                        Gateshead,<br>
+                        Tyne & Wear,<br>
+                        NE11 3PX<br>
+                    </address>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h2>Links</h2>
+                    <hr class="horizontal-rule">
+                    <ul>
+                        <li><a href="404.html" target="_blank">Privacy Policy</a></li>
+                        <li><a href="404.html" target="_blank">Cookies Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h2>Social</h2>
+                    <hr class="horizontal-rule">
+                    <a href="https://www.facebook.com" rel="noopener" target="_blank"><i
+                            class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://www.twitter.com" rel="noopener" target="_blank"><i
+                            class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <p>This site was created purely for educational purposes</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js">
+    </script>
+</body>
+
+</html>
